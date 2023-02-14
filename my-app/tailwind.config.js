@@ -1,10 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+    "./app/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
-    extend: {},
-    container: {
-      center: true,
+    extend: {
+      dropShadow: {
+        md: "0 35px 35px rgba(255,255,255, 0.9)",
+      },
     },
   },
   plugins: [],

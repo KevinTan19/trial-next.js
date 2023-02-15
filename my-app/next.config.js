@@ -1,4 +1,5 @@
 /** @type {import('next').NextConfig} */
+
 module.exports = {
   reactStrictMode: true,
   images: {
@@ -6,8 +7,8 @@ module.exports = {
   },
 };
 
-const withVideos = require("next-videos");
+// const withVideos = require("next-videos");
 
-module.exports = withVideos({
-  distDir: "../../.next",
-});
+// module.exports = withVideos({
+//   distDir: "../../.next",
+// });

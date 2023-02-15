@@ -5,3 +5,9 @@ module.exports = {
     domains: ["images.ctfassets.net"],
   },
 };
+
+const withVideos = require("next-videos");
+
+module.exports = withVideos({
+  distDir: "../../.next",
+});

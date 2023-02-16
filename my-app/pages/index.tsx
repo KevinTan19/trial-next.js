@@ -144,17 +144,22 @@ const Home: NextPage = () => {
 
         <div className="bg-white w-full">
           <div className="pt-20 pb-20 lg:pt-32 lg:pb-32 bg-slate-900 rounded-br-[60px] lg:rounded-br-[120px]">
-            <h1 className="font-display flex flex-col items-center text-center relative isolate text-center h-full w-full">   
-              <span className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-                Dummy
-              </span>
-              <span className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-                End of
-              </span>
-              <span className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-slate-500	">
-                Content
-              </span>
-            </h1>
+              <div className="h-full z-10 inset-0 flex items-center justify-center">
+                <img src="/Sphere_-_monochrome_simple.png" className="absolute object-contain lg:object-cover pointer-events-none animate-bounce drop-shadow-lg" alt="sphere" />
+                <div className="rz-20 flex flex-col items-center justify-center text-center text-white pt-10 pb-28">
+                  <h1 className="font-display flex flex-col items-center text-center relative isolate text-center h-full w-full">   
+                    <span className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
+                      Dummy
+                    </span>
+                    <span className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
+                      End of
+                    </span>
+                    <span className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-slate-500	">
+                      Content
+                    </span>
+                  </h1>
+                </div>
+              </div>
           </div>
         </div>
 
